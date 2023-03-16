@@ -3,7 +3,6 @@ plugins {
 }
 
 group = "com.balazsizsof.coding.warmups"
-version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
@@ -11,6 +10,7 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    testImplementation("org.junit.jupiter:junit-jupiter:5.9.0")
 }
 
 tasks.test {
